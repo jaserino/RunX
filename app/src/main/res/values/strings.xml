@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RunX</string>
+    <string name="goStepCounter">Step Counter</string>
+    <string name="goTimer">Timer</string>
+
+    <string name="swStart">Start</string>
+    <string name="swPause">Pause</string>
+    <string name="swReset">Reset</string>
+
+
+</resources>
