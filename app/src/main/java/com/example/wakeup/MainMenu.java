@@ -14,8 +14,8 @@ import android.widget.Button;
 
 public class MainMenu extends AppCompatActivity {
 
-    WebView webView;
-    public String fileName = "myDescription.html";
+//    WebView webView;
+//    public String fileName = "myDescription.html";
 
 
     @Override
@@ -41,10 +41,10 @@ public class MainMenu extends AppCompatActivity {
             }
         });
 
-        webView = (WebView) findViewById(R.id.simpleWebView);
-        // displaying content in WebView from html file that stored in assets folder
-        webView.getSettings().setJavaScriptEnabled(true);
-        webView.loadUrl("file:///android_asset/" + fileName);
+//        webView = (WebView) findViewById(R.id.simpleWebView);
+//        // displaying content in WebView from html file that stored in assets folder
+//        webView.getSettings().setJavaScriptEnabled(true);
+//        webView.loadUrl("file:///android_asset/" + fileName);
     }
 
     private void goAlarm() {
