@@ -25,7 +25,7 @@ public class TimerActivity extends AppCompatActivity {
         chronometer.setOnChronometerTickListener(new Chronometer.OnChronometerTickListener() {
             @Override
             public void onChronometerTick(Chronometer chronometer) {
-                if ((SystemClock.elapsedRealtime() - chronometer.getBase()) >= 10000) {
+                if ((SystemClock.elapsedRealtime() - chronometer.getBase()) >= Integer.MAX_VALUE) {
                     chronometer.setBase(SystemClock.elapsedRealtime());
                     Toast.makeText(TimerActivity.this, "Bing!", Toast.LENGTH_SHORT).show();
                 }
